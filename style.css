@@ -1,0 +1,171 @@
+
+/*=========
+pre setup
+==========*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    font-variant: small-caps;
+}
+ul li
+{
+    display: inline;
+}
+li
+{
+    list-style-type: none;
+}
+
+/*==========
+header css
+==========*/
+.logo
+{
+    color: salmon;
+    background-image: repeating-linear-gradient(to left,skyblue,aliceblue,skyblue);
+border-radius: 2rem;
+}
+nav
+{
+    padding: 10px;
+    text-align: center;
+}
+nav ul li a
+{
+    padding: 6px 20px;
+}
+nav ul li a:hover
+{
+    background-image: repeating-radial-gradient(aliceblue,purple);
+    border-radius: 30%;
+    /* border: seagreen double 3px; */
+    box-shadow:-1px -1px 10px hotpink;
+}
+#box
+{
+    background-image: repeating-radial-gradient(purple, aliceblue);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/*===============
+Main content Section css
+===============*/
+.box
+{
+    background-image: radial-gradient(purple, aliceblue);
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template:repeat(2, auto auto)/repeat(1, 1fr 3fr 1fr);
+    grid-gap: 5px;
+}
+.box2
+{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.box5
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/*==============
+footer section css
+==============*/
+.footer
+{
+    color: seashell;
+    text-align: center;
+    background-image: repeating-linear-gradient(to left,#555,#888,#555);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+
+/*==============
+Contact Page Css
+==============*/
+.declaretion
+{
+    color: azure;
+    background-color: indigo;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.Login
+{ 
+    background-image: repeating-linear-gradient(purple, #234);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+input
+{
+    display: block;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 3px 20px;
+    box-sizing: border-box;
+}
+input:hover
+{
+    width: 80%;
+    font-size: 24px;
+}
+input:focus
+{
+    color: aliceblue ;
+    width: 100%;
+    border:5px double deeppink;
+    font-size: 24px;
+}
+
+/*==============
+About Page Css
+==============*/
+.aboutjk
+{
+    background-image: repeating-linear-gradient(to left,red, blue);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/*==============
+portfolio page css
+==============*/
+.pfooter
+{
+    color: darkblue;
+    text-align: center;
+    background-image: radial-gradient(blue,white,blue);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.boxp
+{
+    background-image: linear-gradient(skyblue,darkgrey,lightgrey, darkgrey,midnightblue);
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+
+
+
+
+
